@@ -40,10 +40,10 @@
     [RuoYi/ruoyi-generator/src/main/resources/mapper/generator/GenTableMapper.xml]**
 <img width="1232" height="366" alt="image" src="https://github.com/user-attachments/assets/46868677-d780-499f-b27d-9889099e8686" />
 
-**Analysis revealed:
-        SQL statements are dynamically concatenated
-        No parameterized queries or prepared statements are used
-        Input validation relies solely on the previously analyzed filterKeyword method
-This combination of dynamic SQL concatenation and insufficient input sanitization creates the perfect conditions for SQL injection, as demonstrated by our payload's successful execution despite keyword filtering.**
+**Analysis revealed:**
+        1. **SQL statements are dynamically concatenated**
+        2. **No parameterized queries or prepared statements are used**
+        3. **Input validation relies solely on the previously analyzed filterKeyword method**
+**This combination of dynamic SQL concatenation and insufficient input sanitization creates the perfect conditions for SQL injection, as demonstrated by our payload's successful execution despite keyword filtering.**
 
 
